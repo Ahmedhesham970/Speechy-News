@@ -21,16 +21,16 @@ Built with a strong **Node.js** backend architecture, Speechy News delivers secu
 | Layer | Technologies |
 |-------|---------------|
 | **Backend** | Node.js, Express.js |
-| **Database** | MongoDB / Mongoose |
+| **Database** | postgresql / sequelize |
 | **Authentication** | JWT, bcrypt |
-| **Validation** | Joi / express-validator |
+| **Validation** | express-validator |
 | **Environment** | dotenv |
 | **Other Tools** | Postman, Git, GitHub |
 
 ---
 
 ## 🏗️ Project Structure
-
+```
 Speechy-News/
 ├── models/
 │ ├── userModel.js
@@ -51,3 +51,22 @@ Speechy-News/
 │ └── db.js
 ├── server.js
 └── .env
+```
+
+🧑‍💻 Author
+
+Ahmed Hesham
+Backend Developer – Node.js, Express, MongoDB
+🌐 LinkedIn
+
+💻 GitHub
+
+⭐ Future Enhancements
+
+📱 Real-time notifications when someone interacts with your post
+
+🏷️ Add tags and categories for blogs
+
+🧵 User profiles and personalized feeds
+
+🌍 Deploy API with CI/CD
