@@ -31,3 +31,23 @@ Built with a strong **Node.js** backend architecture, Speechy News delivers secu
 
 ## 🏗️ Project Structure
 
+Speechy-News/
+├── models/
+│ ├── userModel.js
+│ ├── postModel.js
+│ └── commentModel.js
+├── routes/
+│ ├── userRoutes.js
+│ ├── postRoutes.js
+│ └── commentRoutes.js
+├── controllers/
+│ ├── userController.js
+│ ├── postController.js
+│ └── commentController.js
+├── middlewares/
+│ ├── authMiddleware.js
+│ └── errorHandler.js
+├── config/
+│ └── db.js
+├── server.js
+└── .env
